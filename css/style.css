@@ -1,0 +1,44 @@
+/* ============ Start Slider Image  =============*/
+.owl-carousel .owl-nav .owl-prev{
+	position: absolute;
+	top: 35%;
+	left: 0px;
+	background: #fff;
+	border: none;
+	box-shadow: 0 0 8px #ccc;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 90px;
+}
+.owl-carousel .owl-nav .owl-next{
+	position: absolute;
+	top: 33%;
+	right: 0px;
+	background: #fff;
+	border: none;
+	box-shadow: 0 0 8px #ccc;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: 90px;
+}
+/*================ Text in image ==========*/
+.word{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	left: 150px;
+	bottom: 400px;
+	font-size: 50px;
+	color: rgb(234, 255, 0);
+}
+.word1{
+	padding: 0px;
+	margin: 0px;
+	position: relative;
+	bottom: 600px;
+	left: 150px;
+	font-size: 100px;
+	color: rgb(234, 255, 0);
+}
+
+/* ============ End Slider Image  =============*/
