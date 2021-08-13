@@ -1,104 +1,145 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<meta charset="utf-8">
-	<title>Slider</title>
-	<link rel="stylesheet" type="text/css" href="css/Our-Services.css">
-	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Homepage design with Bootstrap and Animate css</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.6.2/animate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">    
+
 </head>
 <body>
-	<!-- navbar -->
-	<nav>
-        <a href="index.html" class="logo"><label><em> 40X IT BUSINESS SOLUTION</em></label></a>
-        <ul>
-            <li><a href="AboutUS.html">About US</a></li>
-            <li><a href="Services.html">Services</a></li>
-            <li><a href="OurPartners.html">Our Partners</a></li>
-            <li><a class="active" href="ContactUS.html">Contact US</a></li>
-        </ul>
-    </nav>
-	
-	<!-- strat slider Image  -->
-	<section class="slider-img">
-		<div class="carousel owl-carousel">
-			<div class="item">
-				<a href="index.html">
-				<img src="img/img-1.jpg"/>
-				<h2 class="word1">IT Outsourcing <br>services</h2>
-				<p class="word">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p></a>
-			</div>
-			<div class="item">
-				<a href="index.html">
-				<img src="img/img-2.jpg"/>
-				<h2 class="word1">Image Title</h2>
-				<p class="word">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p></a>
-			</div>
-			<div class="item">
-				<a href="index.html">
-				<img src="img/img-3.jpg"/>
-				<h2 class="word1">Image Title</h2>
-				<p class="word">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p></a>
-			</div>
-			<div class="item">
-				<a href="index.html">
-				<img src="img/img-4.jpg"/>
-				<h2 class="word1">Image Title</h2>
-				<p class="word">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p></a>
-			</div>
-			<div class="item">
-				<a href="index.html">
-				<img src="img/img-5.jpg"/>
-				<h2 class="word1">Image Title</h2>
-				<p class="word">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua.</p></a>
-			</div>
-		</div>
-	</section>
-	<!-- end slider Image  -->
 
-	<script src="js/jquery.js"></script>
-	<script src="js/owl.carousel.js"></script>
-	<script src="js/main.js"></script>
-	<!-- our services -->
-	
-	<section class="slider1-img">
+    <header>
+        <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="#">40x</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="AboutUS.html">About Us</a></li>
+                        <li><a href="ContactUS.html">Contact Us</a></li>
+                        <li><a href="Services.html">services</a></li>
+                        <li><a href="OurPartners.html">Our Partners</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="banner" style="background-image: url(img/img-1.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated bounceInRight" style="animation-delay: 1s">We Are <span>Creative</span></h2>
+                        <h3 class="animated bounceInLeft" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                        <p class="animated bounceInRight" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/img-2.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated slideInDown" style="animation-delay: 1s">We Are <span>Franco</span></h2>
+                        <h3 class="animated fadeInUp" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/img-3.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We Are <span>Diligent</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/img-4.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We Are <span>Diligent</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="banner" style="background-image: url(img/img-5.jpg);"></div>
+                    <div class="carousel-caption">
+                        <h2 class="animated zoomIn" style="animation-delay: 1s">We Are <span>Diligent</span></h2>
+                        <h3 class="animated fadeInLeft" style="animation-delay: 2s">Web Design and Development Agency</h3>
+                        <p class="animated zoomIn" style="animation-delay: 3s"><a href="#">Contact us</a></p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <section class="slider1-img">
+        <div class="our services" id="services">
+        <h1 class="contact">Our Services</h1>
 		<div class="carousel owl-carousel1">
+            <div class="parent">
 			<div class="item1">
-				<img src="img/OIP.png" class="iocns"/>
+				<img src="img/OIP.png" class="icons"/>
 				<h2 class="text">IT Outsourcing <br><span>services</span></h2>
 				<p class="pragraph">We help organisational and <br> business stakeholders to <br> improve performance, <br> increase effectiveness, <br> reduce costs and achieve <br> desired goals and objectives.</p>
 				<a href="AboutUS.html" class="read">Read More</a>
 			</div>
 			<div class="item2">
-				<img src="img/OIP-1.png" class="iocns"/>
+				<img src="img/OIP-1.png" class="icons2"/>
 				<h2 class="text">IT Support <br><span>services</span></h2>
 				<p class="pragraph">We provide Remote IT <br> support in Egypt, with Onsite <br> visits available upon <br> demand, effectively <br> becoming your IT Help Desk <br> Partner.</p>
 				<a href="AboutUS.html" class="read">Read More</a>
 
 			</div>
 			<div class="item3">
-				<img src="img/OIP-2.png" class="iocns"/>
+				<img src="img/OIP-2.png" class="icons3"/>
 				<h2 class="text">IT Infrstructure <br><span>services</span></h2>
 				<p class="pragraph">We offer IT Infrastructure <br> services that are catered to <br> support a smooth Network <br> Systems Administration routine, <br> based on your needs and <br> objectives.</p>
 				<a href="AboutUS.html" class="read">Read More</a>
 
 			</div>
 			<div class="item4">
-				<img src="img/OIP-3.png" class="iocns"/>
+				<img src="img/OIP-3.png" class="icons4"/>
 				<h2 class="text">IT Consulting <br><span>services</span></h2>
 				<p class="pragraph">We provide on demand IT <br> Consulting Services for <br> decision makers to translate IT <br> adoption choices into <br> opportunities to help maintain <br> and expand your business.</p>
 				<a href="AboutUS.html" class="read">Read More</a>
 
 			</div>
+           </div>
 		</div>
+    </div>
 	</section>
-
-	</div>
 </body>
 </html>

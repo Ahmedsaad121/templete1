@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body {
+	font-family: 'Poppins', sans-serif;
+    overflow: hidden;
+}
+.navbar-inverse {
+	background-color: transparent;
+	border-color: transparent;
+}
+.navbar-inverse .navbar-brand {
+	color:  #007db8;
+	font-size: 40px;
+	font-weight: 900;
+    text-decoration: none;
+    
+}
+.navbar-header{
+    transform: translate(150px, 30px);
+
+}
+.nav.navbar-nav.navbar-right {
+    display: flex;
+    transform: translate(800px, -50px);
+    list-style: none;
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+	color: #007db8;
+	text-transform: uppercase;
+	font-family: Courier, monospace;
+	font-size: 25px;
+	font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0px;
+}
+.micro{
+    width: 30%;
+    transform: translate(0, -40px);
+}
+.Hp{
+    width: 12%;
+    transform: translate(0, -60px);
+}
+.linux{
+    width: 20%;
+    transform: translate(50px, -60px);
+}
+.kaspersky{
+    width: 20%;
+    transform: translate(-120px, -170px);
+    float: right;
+}
+.vmware{
+    width: 20%;
+    transform: translate(-920px, 80px);
+}
+.apple{
+    width: 10%;
+    transform: translate(500px, -60px);
+}
+.dell{
+    width: 10%;
+    transform: translate(-500px,130px);
+}
+.html{
+    width: 12%;
+    transform: translate(950px,-50px);
+}
+.css{
+    width: 8.5%;
+    transform: translate(1030px, -50px);
+
+}
+.office{
+    width: 20%;
+    transform: translate(-400px, 110px);
+}
+.sql{
+    width: 15%;
+    transform: translate(-300px, 110px);
+}
+.js{
+    width: 8.5%;
+    transform: translate(-230px, 110px);
+}
+.php{
+    width: 12%;
+    transform: translate(1050px, -20px);
+}
+.red{
+    width: 15%;
+    transform: translate(1100px, -40px);
+}

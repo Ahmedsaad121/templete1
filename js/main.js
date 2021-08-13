@@ -10,3 +10,6 @@ $(".carousel").owlCarousel({
 	nav:true,
 	
 });
+$('.puertolink').click(function(){
+	var puerto = $(this).attr("href");
+})
